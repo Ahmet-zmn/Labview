@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="csv.vi" Type="VI" URL="../../../../çıktı/csv.vi"/>
+		<Item Name="csv.vi" Type="VI" URL="../csv.vi"/>
 		<Item Name="Keithley 27XX Temperature (Thermocouple).vi" Type="VI" URL="../Keithley 27XX Temperature (Thermocouple).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -61,6 +61,7 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+			<Item Name="csv.vi" Type="VI" URL="../../../../çıktı/csv.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Keithley 27XX Temperature" Type="EXE">
